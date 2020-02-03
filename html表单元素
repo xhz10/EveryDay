@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建表单</title>
+</head>
+<body>
+<form>
+    <input type="text" value="许洪卓"><!--value是一个占位的作用-->
+    <input><!--单行文本框-->
+    <input placeholder="许洪卓"><!--是一个占位符但是不占文本框的位-->
+    <input placeholder="许洪卓" maxlength="8">
+  <!--  最大能输入的字符是maxlength-->
+    <br>
+    <input placeholder="许洪卓" maxlength="8">
+    <input placeholder="许洪卓" size="50">
+<!--    size拓宽单行文本框-->
+    <input value="许洪卓" maxlength="8" readonly><!--只读-->
+    <input type="password"><!--实际上是以明文传输到服务器的-->
+    <textarea rows="20"></textarea>
+    <br>
+    <input type="text" placeholder="请输入账号">
+    <br><br>
+    <input type="password" placeholder="请输入密码">
+    <br>
+
+
+
+
+</form>
+</body>
+</html>
